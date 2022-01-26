@@ -38,10 +38,8 @@ button {
   margin: auto;
   padding-inline: var(--size-5);
   padding-block: var(--size-3);
-  border-radius: var(--radius-3);
+  border-radius: var(--size-2);
   background: var(--blue-8);
-  color: white;
-  justify-self: start;
 }
 
 button:hover {
@@ -49,6 +47,7 @@ button:hover {
 }
 
 .pix > img {
+  width: 100%;
   height: 100%;
   object-fit: cover;
 }
