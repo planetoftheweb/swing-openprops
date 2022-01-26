@@ -1,0 +1,54 @@
+@import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/normalize.min.css";
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.col {
+  align-content: center;
+  height: 100vh;
+}
+
+.content {
+  padding: var(--size-10);
+  display: grid;
+  gap: var(--size-5);
+  background: var(--orange-1);
+}
+
+h1 {
+  color: var(--blue-7);
+  font-size: var(--font-size-8);
+}
+
+h2 {
+  color: var(--gray-6);
+  font-size: var(--font-size-4);
+  font-weight: var(--font-weight-2);
+}
+
+p {
+  font-weight: var(--font-weight-2);
+  color: var(--gray-6);
+}
+
+button {
+  margin: auto;
+  padding-inline: var(--size-5);
+  padding-block: var(--size-3);
+  border-radius: var(--radius-3);
+  background: var(--blue-8);
+  color: white;
+  justify-self: start;
+}
+
+button:hover {
+  background: var(--blue-6);
+}
+
+.pix > img {
+  height: 100%;
+  object-fit: cover;
+}
